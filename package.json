@@ -1,0 +1,23 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "main": "App.js",
+  "scripts": {
+    "start": "expo start"
+  },
+  "dependencies": {
+    "expo": "~52.0.0",
+    "expo-local-authentication": "~14.0.1",
+    "expo-status-bar": "~2.0.1",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "react": "18.3.1",
+    "react-native": "0.76.3",
+    "lottie-react-native": "7.0.0",
+    "expo-document-picker": "~13.0.1",
+    "expo-file-system": "~18.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
