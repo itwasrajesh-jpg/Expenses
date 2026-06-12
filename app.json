@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Celestial's Expense Tracker",
+    "slug": "celestials-expense-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0E0C14"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0E0C14"
+      },
+      "package": "com.celestial.expensetracker",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.VIBRATE"
+      ]
+    },
+    "plugins": [
+      "expo-local-authentication"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "41e37d6d-c1bb-4368-8823-5492c5677c8b"
+      }
+    }
+  }
+}
